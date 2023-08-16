@@ -6,10 +6,11 @@ public class break_example {
         do {
             System.out.print("Enter you number : ");
             int number = sc.nextInt();
-            if (number%10 == 0) {
+            if (number % 10 == 0) {
                 break;
             }
             System.out.println(number);
         } while (true);
+        sc.close();
     }
 }

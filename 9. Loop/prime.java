@@ -5,13 +5,13 @@ public class prime {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        if (n==2) {
+        if (n == 2) {
             System.out.println("Prime Number");
         } else {
             boolean isPrime = true;
             for (int i = 2; i <= Math.sqrt(n); i++) {
-                if (n % i ==0) {
-                    isPrime= false;
+                if (n % i == 0) {
+                    isPrime = false;
                 }
             }
             if (isPrime == true) {
@@ -20,5 +20,6 @@ public class prime {
                 System.out.println("Not Prime Number");
             }
         }
+        sc.close();
     }
 }

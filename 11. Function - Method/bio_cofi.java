@@ -25,11 +25,11 @@ public class bio_cofi {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter two number for find bio_cofisient");
         System.out.println("Enter n ");
-        int num_1= sc.nextInt();
+        int num_1 = sc.nextInt();
         System.out.println("Enter r ");
         int num_2 = sc.nextInt();
 
         System.out.println("Your ans is " + bio_coficient(num_1, num_2));
-
+        sc.close();
     }
 }

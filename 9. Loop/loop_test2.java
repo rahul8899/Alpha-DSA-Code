@@ -20,5 +20,6 @@ public class loop_test2 {
         } while (choice == 1);
         System.out.println("Sum of even numbers: " + evenSum);
         System.out.println("Sum of odd numbers: " + oddSum);
+        sc.close();
     }
 }

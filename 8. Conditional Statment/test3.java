@@ -33,5 +33,6 @@ public class test3 {
                 System.out.println("Enter valid number");
                 break;
         }
+        sc.close();
     }
 }

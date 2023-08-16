@@ -9,6 +9,7 @@ public class loop_test3 {
         for (int i = 1; i <= num; i++) {
             fact = fact * i;
         }
+        sc.close();
         System.out.println("Factorial of given number is " + fact);
     }
 }

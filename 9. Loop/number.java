@@ -9,5 +9,6 @@ public class number {
             System.out.print(i + " ");
             i++;
         }
+        sc.close();
     }
 }
